@@ -1,0 +1,48 @@
+* When and why BDD was defined?
+Behavior Driven Development (BDD) was born in the year of 2003,
+ it is a software development process, developed  as an improvement of the Test Driven Development (TDD).
+
+* The most important aspects of BDD
+I'd say that the developers could validate easier the functionality of the application and the requirement are easy to specify,
+this would be taken as SOLID principles like communication and adaption to changes.
+
+* Why is useful and when could be applied?
+It is useful to test complete scenarios and the behavior of the classes
+in order to accomplish these scenarios running automated tests
+
+*Which type of teams could implement BDD?
+Teams who works with agile processes.
+
+*Structure of a feature – Give an example
+The structure of a feature is:
+    -Name
+    -Size(optional)
+    -Priority
+Example:
+    Choose a product to view from a list of products. 1
+
+*Structure of a user story – Give an example
+The structure of a user story is:
+    -As a [role]
+    -I want [feature]
+    -So that [benefit]
+Example:
+    As a librarian
+    I want to search for books by their author
+    So that all book coincidences will be displayed in short time
+
+*Structure of a scenario – Give an example
+The structure of a scenario is:
+    -Given [some initial context (the givens)]
+    -When [an event occurs]
+    -Then [ensure some outcomes]
+Example:
+    Given that a user ask for a book with specific author
+    When he enters the author in the search
+    Then a list of coincidences should be displayed
+
+*Differences between BDD and BDT
+The big difference is the fact that BDD helps mitigate issues caused by TDD and is driven by behavior and specification.
+Test-Driven Development gives you the when.
+Behavior Driven-Development gives you the how.
+BDD directly impacts the actual design of the software, while TDD is more focused on the testing.
